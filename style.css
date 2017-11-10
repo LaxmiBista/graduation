@@ -1,0 +1,77 @@
+body{
+    width: 1000px;
+    font-family: 'メイリオ',
+    'Hiragino Kaku Gothic Pro',
+    sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+}
+body {
+    background-color: lightblue;
+}
+.main-image{
+    width: 50px;
+    position: relative;
+    left: 50px;
+    display: inline;
+    font-size: 100px;
+    padding-left: 5px;
+    
+    }
+.menu-area{
+    width: 40px;
+    position: relative;
+    left: 500px; 
+        
+    }
+    
+
+.social{
+    /*margin-right: auto;*/
+    text-align: right;
+}
+nav li {
+    display: inline;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border:1px solid;
+    margin-left: 10px;
+    
+    
+   
+    }
+   
+    nav{
+        margin-top:5px;
+    }
+.place-picture{
+    /*display: inline;*/
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left:550px; 
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 150px;
+     text-shadow: 3px 2px red;
+}
+.place-info{
+    margin-left: 350px,
+}
+    
+
+footer div{
+    display: inline;
+     font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid;
+    margin-left:10px;
+}
+
+.socials {
+    width: 30px;
+    margin-top:30px;
+}
