@@ -5,7 +5,15 @@
     <meta charset="UTF-8">
     <title>Top | Graduction</title>
     <link rel="stylesheet" href="style.css">
+    
+    <!-- 1. Link to jQuery (1.8 or later), -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> <!-- 33 KB -->
+    <!-- fotorama.css & fotorama.js. -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
 </head>
+
 
 <body>
     <header>
@@ -21,38 +29,35 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="news.html">Flavor</a></li>
                 <li><a href="about.html">Event</a></li>
-                <li><a href="contact.html">About</a></li </ul>
+                <li><a href="contact.html">About</a></li 
+            </ul>
 
         </nav>
 
     </header>
     <div class="contents">
-        <div class="main-image">
-            <img src="image/main_img1.png">
-            <img src="image/main_img2.png">
-            <img src="image/main_img3.png">
-            <!--<img class="mySlides" src="main_img1.png">-->
-            <!--<img class="mySlides" src="main_img2.png">-->
-            <!--<img class="mySlides" src="main_img3.png">-->
+        <div class="fotorama" data-autoplay="500">
+        <img src="image/main_img1.png">
+        <img src="image/main_img2.png">
+        <img src="image/main_img3.png">
             
-        </div>
+    </div>
 
 
-        <div class="menu-area">
-            <div>menu</div>
-        </div>
+    <div class="menu-area">
+        <div>menu</div>
+    </div>
         <div class="place-area">
-            <div class="place-picture">
-                <div>place picture</div>
-                <img src="image/place pic1.png">
-            </div>
-        </div>
-        <div class="place-info">
-            <div> Place Environment </div>
+            <div class="place-info">
+            <div id = "one"> Place information </div>
             <div>Peaceful Environment</div>
         </div>
-
-    </div>
+            </div>
+        <div class="place-picture">
+                <div>place picture</div>
+                <img src="image/place pic1.png">
+        </div>
+        
 
     <ul>
         <li>dummy</li>
@@ -70,6 +75,9 @@
         <div class="Hour">Hour</div>
         <div class="Contact">Contact</div>
     </footer>
+
+
+    
 </body>
 
 </html>

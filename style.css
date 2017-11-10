@@ -16,19 +16,22 @@ body {
     display: inline;
     font-size: 100px;
     padding-left: 5px;
+
     
     }
 .menu-area{
     width: 40px;
     position: relative;
-    left: 500px; 
+    left: 500px;
+    text-decoration: underline;
+    text-indent: 150px;
         
     }
     
 
 .social{
     /*margin-right: auto;*/
-    text-align: right;
+    text-align: center;
 }
 nav li {
     display: inline;
@@ -37,6 +40,7 @@ nav li {
     padding-right: 25px;
     border:1px solid;
     margin-left: 10px;
+    background-color: green;
     
     
    
@@ -50,15 +54,24 @@ nav li {
     font-size: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-left:550px; 
+    margin-left:350px; 
     text-align: center;
     text-decoration: underline;
     text-transform: uppercase;
     text-indent: 150px;
      text-shadow: 3px 2px red;
 }
-.place-info{
-    margin-left: 350px,
+.place-area{
+    margin-left: 100px;
+    
+}
+.place-area #one{
+     margin-left: 100px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 150px;
+    text-shadow: 3px 2px white;
+    
 }
     
 
