@@ -11,6 +11,10 @@ body{
 .textwidget{
     text-align:right;
 }
+.sajan_Hiro{
+      font-family: Ravie;
+    
+}
 
 h3{
     text-align:center;
@@ -42,6 +46,7 @@ h3{
 }
 
 nav li {
+      font-family: Algerian;
     display: inline;
     font-size: 15px;
     padding-left: 25px;
@@ -112,3 +117,4 @@ nav ul {
     width: 30px;
     margin-top:30px;
 }
+
