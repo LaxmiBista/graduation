@@ -1,0 +1,129 @@
+.container {
+    width: 960px;
+}
+ social icons 
+
+ul.social {list-style:none; margin:0 0 10px 0;}
+ul.social li {display:inline-block; margin-left:10px;}
+ul.social a {background: transparent url(../img/socialicons.png) no-repeat; display:block; width:31px; height:31px; text-indent:-9999px; text-align:left;}
+ul.social a.fb {background-position:-1px 0;}
+ul.social a.fb:hover {background-position:-1px -31px;}
+ul.social a.twit {background-position:-43px 0;}
+ul.social a.twit:hover {background-position:-43px -31px;}
+ul.social a.rss {background-position:-87px 0;}
+ul.social a.rss:hover {background-position:-87px -31px;}
+ul.social a.mail {background-position:-129px 0;}
+ul.social a.mail:hover {background-position:-129px -31px;}
+
+ headers styles 
+
+.hdr1 {background: transparent url(./hdr1-ribbon.png) no-repeat top center; height:67px; text-align:center; font-family: 'BitterBold'; font-size:21px; line-height:44px; margin:5px 0; color:#fff;}
+
+ footer 
+
+#footer {background:transparent url(../img/footer-bg.jpg) repeat-x 49% 0; min-height:408px; margin:80px 0 0 0; padding:0;}
+#footer .top {background: transparent url(../img/ft-box-top.png) no-repeat 50% 0; height:38px;}
+#footer .mid {background: transparent url(../img/ft-box-mid.png) repeat-y 50% 0; min-height:60px; padding:0 50px;}
+#footer .btm {background: transparent url(../img/ft-box-btm.png) no-repeat 50% 0; height:38px;}
+#footer .hdr1 {position:relative; top:-29px;}
+#footer h4 {color:#cee5e5; font-size:16px; font-family: 'BitterBold'; text-transform: uppercase; margin-bottom:7px;}
+#footer h4 span.lft {background:none;}
+#footer h4 span.rt {background:none;}
+#footer h4 span:before {content: "";}
+
+#footer .col1 {float:left; width:28%;}
+#footer .col2 {float:left; width:45%;}
+#footer .col3 {float:left; width:27%;}
+
+.day {width: 100px; display: inline-block; }
+
+#footer span.day {font-size:12px; color:#fff; font-family: 'lucida_grandebold'; display:inline-block; line-height:15px; width:80px;}
+#footer span.hour {font-size:12px; color:#fff; font-family: 'lucida_grandebold'; display:inline-block; line-height:15px; }
+#footer .brdr {background: transparent url(../img/ft-brd.png) repeat-y top center; padding:0;}
+#footer .midSpace {padding:0 20px;}
+#footer .midSpace.nolft {padding-left:0;}
+#footer .ftMap {float:left; padding:5px 0; width:49%; background: transparent;}
+.gmap iframe {border:0; margin:0; overflow:hidden;}
+.gmap small a {color:#cee5e5 !important; font-size:12px; padding-left:5px; display:block; }
+.gmap p {float:right; margin:0 0 0 4%; width:47%; font-family: 'lucida_grandebold'; font-size:12px; line-height:14px; color:#fff; padding-top:7px; }
+.gmap a {color:#fff;}
+
+#footer .data1 {color:#b0a18f; font-size:11px; padding:5px 0 0 0; display:block;}
+.data1 {color:#b0a18f; font-size:11px; padding:5px 0 0 0; display:block;}
+#footer .lftMrg {padding-left:20px;}
+#footer a {color:#fff; font-size:12px; line-height:13px; margin-bottom:0; display:block;}
+#footer .footNotes {margin:15px 0 0 45px;}
+.footNotes ul.social {width:23%; float:left; }
+.footNotes p {width:100%; font-size:12px; color:#407286; padding:9px 0 0 0;}
+
+
+* media queries, adjustments *
+
+@media (max-width: 959px) {
+    #footer {background:none; margin-top:50px; padding-bottom:250px; background: transparent url(../img/ipad-footer-bg.jpg) repeat-x 49% 100%;}
+	#footer .hdr1 {display:none;}
+
+    #footer .top {background:transparent url(../img/ipad-hours-bg-top.png) no-repeat top center; height:34px; }
+	#footer .mid {background:transparent url(../img/ipad-hours-bg-mid.png) repeat-y top center; }
+	#footer .btm {background:transparent url(../img/ipad-hours-bg-btm.png) no-repeat top center; height:34px; }
+
+
+    #footer .col3 {display:none;}
+    #footer .col1 {width:80%; padding:0 10%; }
+    #footer .col2 {width:94%; padding:0 3%;}
+    #footer .col1 {background:none; min-height:223px; margin-bottom:30px;}
+	#footer span.day {color:#262626; width:39%; font-family: 'lucida_granderegular'; font-size:16px; line-height:23px;}
+	#footer span.hour {color:#262626; width:59%; text-align:right; font-family: 'lucida_granderegular'; font-size:16px; line-height:23px;}
+	#footer h4 span:before {content: "\00a0";}
+
+	#footer .col2 p {color:#262626; width:100%; float:none; padding-left:7px;}
+	#footer .col2 p br {display:none;}
+	#footer .col2 p a {color:#262626; padding-left:6px;}
+    .footNotes {display:none;}
+
+	#footer h4  {background: transparent; height:29px; text-align:center; font-family: 'BitterBold'; font-size:20px; line-height:22px;  margin:10px 0; color:#477d93;}
+	#footer h4 span.lft {background: transparent url(../img/orm1-left.png) no-repeat top center; width:56px; padding-right:10px; height:29px; display:inline-block;}
+	#footer h4 span.rt {background: transparent url(../img/orm1-rt.png) no-repeat top center; width:56px; height:29px; padding-left:10px; display:inline-block;}
+
+	#footer .col2 .ftMap {float:none; background:none; width:100%;}
+	#footer .col2 iframe {width:100%; height:200px !important; padding:0; background:0; border:2px solid #cccccc; border-radius:5px;}
+	#footer .col2 small a {color:#cd5d40 !important; font-family: 'lucida_grandebold';}
+	#footer a {color:#262626;}
+
+}
+
+
+@media (max-width:729px) {
+    .hdr1 {background: none; height:auto; color:#ca5b3f; font-size:19px; line-height:36px;}
+
+    #footer .col1 {background: transparent url(../img/iphone-hours-bg.png) no-repeat center 80%; min-height:197px;}
+    #footer span.day {font-size:14px; line-height:17px;}
+	#footer span.hour {font-size:14px; line-height:17px;}
+	#footer .mid {padding:0;}
+
+	#footer .top, #footer .mid, #footer .btm {background:none;}
+	#footer h4 span.lft {display:none;}
+	#footer h4 span.rt {display:none;}
+    #footer .footNotes {display:block; margin-left:0;}
+	#footer .footNotes p {display:none;}
+	#footer .footNotes ul.social {width:100%; text-align:center; margin: 0;}
+	#footer ul.social a {background: transparent url(../img/iphone-socialicons.png) no-repeat top center; width:52px; height:52px;}
+	#footer .col2 .ftMap {height:auto;}
+
+	#footer {margin-top:10px;}
+	#footer .col1 {background:none;}
+	#footer .col2 {width:100%; padding:0;}
+	#footer span.day {width:100%; display:block; text-align:center;}
+	#footer span.hour {width:100%; display:block; text-align:center; margin-bottom:5px;}
+
+	#footer ul.social a.fb {background-position:-5px -2px;}
+	#footer ul.social a.fb:hover {background-position:-5px -78px;}
+	#footer ul.social a.twit {background-position:-70px -2px;}
+	#footer ul.social a.twit:hover {background-position:-70px -78px;}
+	#footer ul.social a.rss {background-position:-134px -2px;}
+	#footer ul.social a.rss:hover {background-position:-134px -78px;}
+	#footer ul.social a.mail {background-position:-198px -2px;}
+	#footer ul.social a.mail:hover {background-position:-198px -78px;}
+
+}
+

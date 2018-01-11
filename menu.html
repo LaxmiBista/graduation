@@ -5,44 +5,79 @@
     <meta charset="UTF-8">
     <title>Top |graduation</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
 
 </head>
 
 <body>
     <header>
-
-
-        
-        
-        <div>
-            <h3>
-                
-            </h3>
-        </div>
-        
         <nav>
             <ul>
-                <li><a href="menu.html">menu</a></li>
-                
-            </ul>
-         <div class="place-picture">
-            
-            <img src="image/me1.jpg" alt="image/me1.jpg">
-            <img src="imageme2.jpg" alt="image/me2jpg">
-            <img src="image/me3.jpg" alt="image/me3.jpg">
-            <img src="image/me4.jpg" alt="image/me4.jpg">
-            <img src="image/me5.jpg" alt="image/me5.jpg">
-            <img src="image/me6.jpg" alt="image/me6.jpg">
-            <img src="image/me7.jpg" alt="image/me7.jpg">
-             <img src="image/me8.jpg" alt="image/me8.jpg">
-            <img src="image/me9.jpg" alt="image/me9.jpg">
-            <img src="image/me10.jpg" alt="image/me10.jpg">
-            <img src="image/me11.jpg" alt="image/me11.jpg">
-           
-        </div>
+                <li> <a id="modal-open">menu</a></li>
 
+            </ul>
+           
     </header>
 
+
+    <!-- ここからモーダルウィンドウ -->
+    <div id="modal-content">
+        <!-- モーダルウィンドウのコンテンツ開始 -->
+        <div class="menu">
+
+                <figure>
+                    <img src="image/me1.jpg" alt="image/me1.jpg" syle="width:80%;"><br>
+                    <figurecaption>オレオ￥365(税別)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me2.jpg" alt="image/me2.jpg" syle="width:80%;"><br>
+                    <figurecaption>クランベリーソルベ￥365(税別)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me3.jpg" alt="image/me3.jpg" syle="width:80%;"><br>
+                    <figurecaption>チヤリーチーズケーキ￥365(税別)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me4.jpg" alt="image/me4jpg" syle="width:80%;"><br>
+                    <figurecaption>チョコレート￥365(税別)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me5.jpg" alt="image/me5jpg" syle="width:80%;"><br>
+                    <figurecaption>バナナ＆バニーラ￥365(税別)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me6.jpg" alt="image/me6jpg" syle="width:80%;"><br>
+                    <figurecaption>バニラストロベリー￥380(税込)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me7.jpg" alt="image/me7jpg" syle="width:80%;"><br>
+                    <figurecaption>ピスタチオ　￥380(税込)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me8.jpg" alt="image/me8jpg" syle="width:80%;"><br>
+                    <figurecaption>ヘーゼルナッツ　￥380(税込)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me9.jpg" alt="image/me9jpg" syle="width:80%;"><br>
+                    <figurecaption>ベリーココナッツ￥380(税込)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me10.jpg" alt="image/me10jpg" syle="width:80%;"><br>
+                    <figurecaption>ライムソルベ￥380(税込)</figurecaption>
+                </figure>
+                <figure>
+                    <img src="image/me11.jpg" alt="image/me11jpg" syle="width:80%;"><br>
+                    <figurecaption>ライムソルベ￥380(税込)</figurecaption>
+                </figure>
+
+            </div>
+        <p><a id="modal-close" class="button-link">閉じる</a></p>
+        <!-- モーダルウィンドウのコンテンツ終了 -->
+    </div>
+    <!-- ここまでモーダルウィンドウ -->
+    <!-- JavaScriptの読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="modal.js"></script>
 </body>
 </head>
 
